@@ -1,6 +1,5 @@
 import "../styles/InteractiveSimulation.css"
 import Simulation from "../components/Simulation";
-import SimulationV2 from "../components/SimulationV2";
 import BottomNavButton from "../components/BottomNavButton";
 
 export default function InteractiveSimulation() {

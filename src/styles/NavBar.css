@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); /*Font: Montserrat*/
+
+nav {
+  padding: 20px 0; /* Add padding for better spacing */
+  text-align: right; /* Align the links to the right */
+  position: absolute; /* Fix it to the top */
+  width: 100%; /* Full width */
+  top: -6; /* Stick it to the top */
+  z-index: 10; /* Make sure it stays on top */
+  font-family: "Montserrat";
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Push links to the right */
+  gap: 30px; /* Add spacing between links */
+  padding-right: 50px; /* Add some padding on the right side */
+}
+
+nav ul li a {
+  position: relative;
+  display: inline-block;
+  
+  /*float stuff ^*/
+  text-decoration: none;
+  color: #D66BFF;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #FF4EDB; /* Optional hover color */
+  text-decoration: underline;
+  transform: translateY(-3px); /* float */
+}
+
+
+/*more float*/
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%; /* animate underline from left */
+}

@@ -1,0 +1,36 @@
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 2.5rem;
+  align-items: start;
+}
+
+.comparison-column {
+  text-align: center;
+  color: #E6EEF5;
+}
+
+.comparison-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 0 12px rgba(214, 107, 255, 0.25); /* subtle neon glow */
+}
+
+.comparison-caption {
+  font-size: 1rem;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 900px) {
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+

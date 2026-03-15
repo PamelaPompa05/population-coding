@@ -1,0 +1,18 @@
+.simulation-container {
+  background: radial-gradient(
+    circle at center,
+    #0a063d 0%,     /* slightly lighter center */
+    #080529 60%,    /* your main dark color */
+    #06041f 100%    /* slightly darker edge */
+  );
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #E6EEF5; /* soft white text */
+}
+
+.simulation-title {
+  font-family: 'Orbitron', sans-serif;
+  color: white; /*old color: 00D177*/
+  font-size: 3rem;
+  font-weight: 700;
+}

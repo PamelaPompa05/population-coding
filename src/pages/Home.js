@@ -57,8 +57,7 @@ export default function Home() {
 
         <br></br>
         <p>
-          As aforementioned, in a neural network, each neuron can integrate inputs from multiple neurons.  This is called population coding.
-          Each neuron has a preferred stimulus e.g. Nnurons in the visual cortex may have different preferred orientations of a line (reffered to as a stimulus).  
+          Each neuron has a preferred stimulus e.g. Neurons in the visual cortex may have different preferred orientations of a line (reffered to as a stimulus).  
           One neuron may prefer a line to be oriented at 45 deg, while another may prefer reacting to a line to be oriented at 90 deg (as shown in fig A).
           When a person sees a line in a specific orientation, neurons that prefer that orientation fire more frequently (referred to as their response).
         </p>
@@ -102,12 +101,12 @@ export default function Home() {
 
       <p>
         Together, these responses form a pattern across the entire group of neurons. It is this neural network working together that tells the brain what orientation is being seen, 
-        not a neuron on its own. This is the essence of population coding: information represented by the combined activity of many neurons working as a network.
+        not a neuron on its own.
       </p>
 
       <h2 className="home-question">Color Reception From Your Eyes to Your Brain! </h2>
       <p>
-        We can explore how the brain utilizes population coding to represent colors!
+        We can explore how the brain represents color using groups of neurons!
         In the brain, color reception begins when light reaches the photoreceptor cells in your retina. This light acts as the stimulus, which triggers chemical and electrical proccesses in the rods and 
         cones and the retinal cells that they connect to. These cells are organized into layers, each responsible for a different part of the visual processing pathway.
         For example, the first layer contains the three types of cone photoreceptors: S-cones, M-cones, and L-cones, which all respond to different ranges of light wavelengths. Depending on the 
@@ -137,7 +136,7 @@ export default function Home() {
           className="text-image"
       />
 
-      <h2 className="home-question">Explanation of Population</h2>
+      <h2 className="home-question">How the Brain Represents Color</h2>
 
       <p>
         Focusing on cones for our purposes, the first layer of processing involves the cone photoreceptors, which support high‑acuity color vision in bright light. Each cone type contains a different visual 
@@ -231,8 +230,24 @@ export default function Home() {
 
         <h2 className="home-question">What is Population Coding?</h2>
 
-        <p>To see how population coding works in both computers and humans, we can observe the principle in convolutional neural networks and the human visual pathway!</p>
+        <p>Throughout the examples above (orientation tuning in V1, cone responses to color, and how neurons in artifical networks work together), you may have noticed a theme:
+            <br></br><br></br>
+            <span style={{ color: "#b57bff", fontWeight: "600" }}>no single neuron carries the whole message on its own.</span>
+            <br></br><br></br>
+            Instead, information is represented by the pattern of activity across many neurons.
+            This principle is called 
+             <span style={{ color: "#b57bff", fontWeight: "600" }}> population coding</span>; 
+             information is represented by the combined activity of many neurons working as a network, with
+             each neuron contributing its own response to help form the final interpretation.  For example, when neurons that prefer reddish
+            wavelengths and neurons that prefer bluish wavelengths are both active, the brain interprets that combined pattern as the color purple.
+        </p>
 
+        <h2 className="home-question">Guided Demonstration</h2>
+
+        <br></br>
+
+        <p>Given that we've explored how population coding works in both computers and humans, we can observe the principle in Convolutional Neural Networks and in the Human Visual Pathway!</p>
+        
         <br></br>
 
         <p>The situation that we are focusing on is how the color

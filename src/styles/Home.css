@@ -2,8 +2,8 @@
   background: radial-gradient(
     circle at center,
     #0a063d 0%,      /* purple-ish center */
-    #0a063d 40%,     /* extend the purple farther */
-    #080529 70%,     /* delay the darkening */
+    #0a063d 60%,     /* extend the purple farther */
+    #080529 80%,     /* delay the darkening */
     #06041f 100%     /* edge stays the same */
   );
   min-height: 100vh;

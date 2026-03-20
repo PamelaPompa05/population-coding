@@ -16,7 +16,8 @@
   max-width: 400px;
   border-radius: 8px;
   object-fit: cover;
-  margin-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   box-shadow: 0 0 12px rgba(214, 107, 255, 0.25); /* subtle neon glow */
 }
 
@@ -33,4 +34,12 @@
   }
 }
 
+.column-header {
+font-family: 'Orbitron', sans-serif;
+  color: #D66BFF;        /* neon cyan, or whatever accent you choose */
+  font-size: 1.3rem;     /* adjust as needed */
+  font-weight: 600;      /* slightly bold but not too heavy */
+  margin-bottom: 1rem;   /* spacing under the subtitle */
+  margin-top: 1.5rem;    /* spacing above the subtitle */
+}
 
